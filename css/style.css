@@ -1,0 +1,96 @@
+/*Inicia Sticky Footer*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+/*Termina Sticky Footer*/
+
+nav, ul.hide-on-med-and-down  li > a {
+	height: 80px;
+}
+
+ul.hide-on-med-and-down  li > a {
+	padding-top: 7px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: 'Indie Flower', cursive;
+}
+
+ul#mobile-demo li > a {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+#yemaya{
+	letter-spacing: 2px;
+	margin-left: 10%;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 50px;
+	
+}
+
+.logo_img{
+	height: 75px;
+	margin-left: 25%;
+}
+
+footer{
+	font-family: 'Kalam', cursive;
+}
+
+.foo_img{
+	margin-left: 15px;
+}
+
+.kalam{
+	font-family: 'Kalam', cursive;
+	color: black;
+	font-size: 50px;
+}
+
+.indie{
+	font-family: 'Indie Flower', cursive;
+	color:black;
+	font-size: 35px;
+}
+
+.kua{
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color:black;
+	font-size: 50px;
+}
+
+.carousel { /*Modificamos el alto del carousel en general para que no se encime con el slider*/
+	height: 210px;
+}
+
+a.carousel-item > img { /*Cambiamos el tamaño de las imagenes del carousel para que se vean más grandes*/
+	width: 250px !important;
+}
+
+.mosaico {
+	padding: 0 !important; /*Para que se pegue al borde de la pantalla y no deje espacios entre las imagenes*/
+	height: 400px !important; /*Es el alto del div col que contiene la imagen*/
+}
+
+.mosaico_img {
+	width: 100%; /*Es el 100% de nuestro .col*/
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	transition: 0.4s; /*Para que no se vea el efecto de golpe al poner o quitar el cursor*/
+}
+
+.mosaico_img:hover { /*Efecto de reducción a la imagen del mosaico al pasar el cursor sobre ella*/
+	width: 96%;
+	height: 386px;
+	margin-left: 2%;
+	margin-top: 7px;
+	/*Calculamos la mitad de lo que se reduce y lo aplicamos para que se centre al hacer el hover*/
+}

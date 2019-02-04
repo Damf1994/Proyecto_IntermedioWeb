@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Yemayá - Hotel - México - Vacaciones</title>
+	<!-- Ponemos el icono -->
+	<link rel="shortcut icon" type="img/ico" href="img/icons8-hotel-upgrade-512.png">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Nuestras Fuentes: -->
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kalam|ZCOOL+KuaiLe" rel="stylesheet">
+	<!-- Nuestros CSS: -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!--Barra de Navegacion-->
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper blue lighten-1">
+				<a href="#!" class="brand-logo"><img class="logo_img" src="img/logo.png" alt="Logo"></a><span id="yemaya">Yemayá</span>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="res.html">Reservaciones</a></li>
+					<li><a href="bar.html">Restaurante & Bar</a></li>
+					<li><a href="ins.html">Instalaciones</a></li>
+					<li class="active"><a href="cont.html">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
+	<!--Barra de Navegacion para moviles-->
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="res.html">Reservaciones</a></li>
+		<li><a href="bar.html">Restaurante & Bar</a></li>
+		<li><a href="ins.html">Instalaciones</a></li>
+		<li><a href="cont.html">Contacto</a></li>
+	</ul>
+
+
+	
+	<main>
+		<div class="container">
+
+			<h1 class="center-align kua">Pregunta por nuestras Promociones!</h1>
+
+			<div class="row">
+
+				<!-- Inicia FORMULARIO: Icon Prefixes -->
+				<form class="col s12 l6">
+
+					<div class="row">
+
+						<!-- Input NOMBRE (cambiar INPUT TYPE)-->
+						<div class="input-field col s12 l6">
+							<i class="material-icons prefix">person</i>
+							<input id="nombre" type="text" class="validate">
+							<label for="nombre" class="kalam">Nombre</label>
+						</div>
+
+						<!-- Input APELLIDO (cambiar INPUT TYPE) -->
+						<div class="input-field col s12 l6">
+							<i class="material-icons prefix">person_outline</i>
+							<input id="apellido" type="text" class="validate">
+							<label for="apellido" class="kalam">Apellido</label>
+						</div>
+
+						<!-- Input TELÉFONO (cambiar INPUT TYPE) -->
+						<div class="input-field col s12 l6">
+							<i class="material-icons prefix">phone</i>
+							<input id="telefono" type="tel" class="validate">
+							<label for="telefono" class="kalam">Teléfono</label>
+						</div>
+
+						<!-- Input CORREO (cambiar INPUT TYPE) -->
+						<div class="input-field col s12 l6">
+							<i class="material-icons prefix">email</i>
+							<input id="correo" type="email" class="validate">
+							<label for="correo" class="kalam">Correo electrónico</label>
+						</div>
+
+						
+
+						<!-- Submit BUTTON (poner clase COL)-->
+						<button class="btn waves-effect waves-light col s12 kua" type="submit" name="action">Enviar
+							<i class="material-icons right ">send</i>
+						</button>
+
+					</div>
+
+				</form>
+				<!-- Termina FORMULARIO -->
+
+				<div class="col s12 l6">
+					
+					<!-- Inicia MAPA -->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4779671712026!2d-99.15586028561782!3d19.434948845642836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fd790def1329%3A0xf7900bcc980d1bec!2sHotel+Casa+Blanca!5e0!3m2!1ses!2smx!4v1549236263674" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<!-- Termina MAPA -->
+
+				</div>
+
+			</div>
+
+		</div>
+	</main>
+
+	<!--Inicio del Footer-->
+	<footer class="page-footer blue darken-4">
+		<div class="container">
+			<!-- Agregamos redes sociales -->
+			<div class="row">
+				<div class="col s12">
+					<center><p>SÍGUENOS EN NUESTRAS REDES SOCIALES</p></center>
+				</div>
+				<!-- Ponemos imagenes centradas con link y target-->
+				<div class="col s12">
+					<center>
+						<a href="http://facebook.com" target="_blank"><img class="foo_img" src="img/icons8-facebook-60.png" alt="Facebook"></a>
+						<a href="http://twitter.com" target="_blank"><img class="foo_img" src="img/icons8-twitter-60.png" alt="Twitter"></a>
+						<a href="http://youtube.com" target="_blank"><img class="foo_img" src="img/icons8-play-button-60.png" alt="YouTube"></a>
+					</center>								
+				</div>
+			</div>
+			<!-- Agregamos medios de contacto --> <!-- Agrego id:"contactos" solo para posicionamiento del botón flotante -->
+			<div class="row" id="contactos">
+				<!-- Teléfono (pongo clase blue-text al icono) ... Ponemos etiqueta <a> con href especial-->
+					<div class="col l8 s12">
+						<h5 class="white-text">Contáctanos</h5>
+						<p class="grey-text text-lighten-4">Te invitamos a llamar a nuestra línea de atención a clientes al teléfono</p>
+						<i class="material-icons blue-text">phone</i><a class="contacto" href="tel:01(800) 12345678"> 01 (800) - 12 - 34 - 56 - 78</a>
+					</div>
+					<!-- Correo (pongo clase blue-text al icono) ... Ponemos etiqueta <a> con href especial-->
+						<div class="col l4 s12">
+							<br><br>
+							<p>O bien, envíanos un correo electrónico</p>
+							<i class="material-icons blue-text">email</i> <a href="mailto:damf@ciencias.unam.mx" class="contacto">info@yemaya.com.mx</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<!-- Insertamos LOGO en el FOOTER -->
+						<center>© Copyright <img src="img/icons8-hotel-upgrade-512.png" alt="logo" height="13"> 2019 | Todos los derechos reservados.</center>
+					</div>
+				</div>
+			</footer>
+
+
+
+		</body>
+
+
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		
+
+		</html>
